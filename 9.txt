@@ -1,0 +1,38 @@
+Program 9: Building a Dashboard
+
+
+Step 1: Upload the Revenue Dataset
+Load the dataset into Power BI and remove unnecessary columns using the Power Query Editor.
+
+
+Step 2: Create Visualizations
+1. Choropleth Map (Filled Map):
+Visualization: Select the Map visualization.
+Setup: Drag the State field to the "Location" and Revenue field to "Values."
+Format: Use color gradients to represent revenue levels, highlighting trends by state.
+2. Line Chart (Revenue by Month):
+Visualization: Select the Line Chart.
+Setup: Drag Month to the "Axis" and Revenue to "Values."
+Format: Customize axis titles, line color, and gridlines for clarity.
+3. Age Binning:
+Create Bins: Right-click the Age field, select "New Group," and set bin size to 10.
+Visualization: Use a Stacked Column Chart, with age bins on the X-axis and revenue on the Y-axis.
+4. Donut Chart (Revenue by Region):
+Visualization: Select the Donut Chart.
+Setup: Drag Region to "Legend" and Revenue to "Values."
+Zero Access Effect: Format labels to emphasize percentage distribution inside the chart.
+5. Butterfly Chart (Male vs. Female Revenue):
+Visualization: Create two bar charts and reverse one to compare male and female revenue.
+Setup: Use Product Category as the axis and Revenue as values.
+6. Average Revenue Calculation:
+Calculated Field: Create a new measure for Average Revenue per State.
+Visualization: Highlight profitable and non-profitable states using conditional formatting.
+
+
+Step 3: Build the Dashboard
+Combine the above visualizations into a single, cohesive dashboard.
+Arrange visuals logically, with filters and slicers for interactivity.
+Use themes and consistent formatting to enhance readability.
+Final Touches
+Save your work as a .pbix file.
+Publish the report to the Power BI Service to enable sharing and further interaction.
