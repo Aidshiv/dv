@@ -1,0 +1,34 @@
+Program 10: Analysis of GDP Dataset
+i) Visualize the countries' data with respect to latitude and longitude using symbol maps:
+Steps to Create a Symbol Map:
+Drag Latitude to Rows.
+Drag Longitude to Columns.
+Drag Country to the Color marks pane.
+Drag any Year (Measured Value) to the Label pane.
+ii) Create a bar graph to compare GDP of Belgium (2006–2026):
+Steps to Create Bar Graph:
+Add Measured Names to the Filter Pane and select years from 2006 to 2026.
+Add Country to the Filter Pane and select "Belgium."
+Drag Measured Names and Country to Columns.
+Drag Measured Values to Rows.
+iii) Using a pie chart, visualize the GDP of selected countries (2010):
+Steps to Create Pie Chart:
+Add Country to Filter Pane and select "India," "Nepal," "Romania," "South Asia," and "Singapore."
+Add Measured Names to the Filter Pane and select 2010.
+Choose Pie Chart visualization from the Marks Pane.
+Drag Country to the Color frame.
+Drag the SUM(2010) to the Angle frame.
+iv) Visualize GDP competition between Bhutan & Costa Rica:
+Steps to Create Comparison Bar Chart:
+Add Country to Filter Pane and select "Bhutan" and "Costa Rica."
+Add Measure Names to Filter Pane and select years (e.g., 2016–2018).
+Drag Country and Measure Names to Columns.
+Drag Measure Values to Rows.
+Add Measure Names to Color frame for clarity.
+v) Create a scatter plot or circle views for selected countries (2004–2006):
+Steps to Create Scatter Plot:
+Add Country to Filter Pane and select "Mexico," "Algeria," "Fiji," and "Estonia."
+Add Measure Names to Filter Pane and select years (2004–2006).
+Drag Measured Names to Columns.
+Drag Measured Values to Rows.
+Choose "Circle" as the chart type in the Marks Pane.
