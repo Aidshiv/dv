@@ -1,0 +1,18 @@
+Program 12: Analysis of Amazon Prime Dataset
+i) Create a Donut Chart for Movies vs TV Shows:
+Steps:
+Drag Type to Legend.
+Drag ID to Values, set to Count.
+ii) Area Chart for Release Year and Type:
+Steps:
+Drag Release Year to Axis, Type to Legend, and Title (Count) to Values.
+iii) Horizontal Bar Chart for Top 10 Genres:
+Steps:
+Filter Top 10 Genres based on content count.
+iv) Map for total shows by country:
+Steps:
+Drag Country to Location and Show Count to Size.
+v) Text Table for Movie Descriptions:
+Steps:
+Create a table with Title and Description fields.
+Add slicers to filter specific movies.
