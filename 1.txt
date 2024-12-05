@@ -1,0 +1,59 @@
+1. Tableau Workspace Setup:
+Connect to Data:
+
+Open Tableau.
+On the "Start Page," select Connect → To a File → Text File.
+Browse and open vgsales.csv.
+Data Preview:
+
+Tableau shows a preview of the data.
+Rename columns if necessary.
+Click on Sheet 1 to go to the first worksheet.
+2. Tableau Terminologies:
+Dimensions:
+
+Qualitative fields (e.g., Platform, Genre, Publisher).
+Measures:
+
+Quantitative fields (e.g., Global_Sales, NA_Sales, Year).
+Rows and Columns Shelf:
+
+Drag dimensions and measures to the Rows or Columns shelves to structure the visualization.
+Marks:
+
+Controls appearance of data (e.g., circle, bar).
+Adjust size, color, and labels.
+Filters:
+
+Drag fields to the Filters shelf to limit data displayed.
+Pages Shelf:
+
+Used for animations or segmenting views by categories.
+3. Basic Functionalities:
+Basic Visualization (Bar Chart of Global Sales by Genre):
+
+Drag Genre to the Columns shelf.
+Drag Global_Sales to the Rows shelf.
+Ensure correct aggregation by right-clicking Global_Sales → Measure → Sum.
+Sorting:
+
+Click on the Global_Sales axis and choose Sort descending.
+Filtering:
+
+Drag Year to the Filters shelf and select the year range (e.g., 2000-2016).
+Add Year to the Pages shelf to create an animated view of sales over time.
+4. Additional Functionalities:
+Create Worksheet for Global Sales Trend by Year:
+
+Drag Year to the Columns shelf.
+Drag Global_Sales to the Rows shelf.
+Create a Line Chart to show sales trends over time.
+Add Genre to the Marks card and apply color to Genre.
+Create a Dashboard:
+
+Go to the Dashboard tab in Tableau.
+Add the worksheets (Bar Chart and Line Chart) to the dashboard layout.
+Select Size → Automatic to adjust dashboard size.
+Final Layout:
+
+Arrange charts (line chart for yearly sales, bar chart for top genres) in the dashboard.
