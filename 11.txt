@@ -1,0 +1,49 @@
+Program 11: Analysis of HR Dataset
+i) Create KPIs:
+Steps to Create Measures for KPIs:
+Employee Count:
+DAX
+Copy code
+Employee Count = COUNT('HR'[EmployeeNumber])
+Attrition Count:
+DAX
+Copy code
+Attrition Count = COUNTROWS(FILTER('HR', 'HR'[Attrition] = "Yes"))
+Attrition Rate:
+DAX
+Copy code
+Attrition Rate = DIVIDE([Attrition Count], [Employee Count], 0) * 100
+Active Employees:
+DAX
+Copy code
+Active Employees = [Employee Count] - [Attrition Count]
+Average Age:
+DAX
+Copy code
+Average Age = AVERAGE('HR'[Age])
+Display each measure in KPI cards.
+ii) Create a Lollipop Chart for attrition rate by gender:
+Simulate using a Line and Stacked Column Chart visualization.
+iii) Create a Pie Chart for department-wise attrition percentage:
+Steps:
+Drag Department to the Legend pane.
+Drag Attrition Count to Values.
+Format labels to show percentages and totals.
+iv) Bar Chart for number of employees by age group:
+Steps:
+Create a new Age Group field using binning (set bin size to 5).
+Drag Age Group to X-Axis and Employee Count to Y-Axis.
+v) Highlight Table for Job Satisfaction Rating:
+Steps:
+Create a Matrix visual.
+Drag Job Role to Rows.
+Drag Job Satisfaction Rating to Columns.
+Drag Employee Count to Values.
+vi) Horizontal Bar Chart for education-wise attrition:
+Steps:
+Choose a Clustered Bar Chart.
+Drag Education Field to Rows and Attrition Count to Columns.
+vii) Multiple Donut Charts for Attrition Rate by Gender:
+Steps:
+Create separate Donut Charts filtered by Age Group.
+Drag Gender to Legend and Attrition Rate to Values.
