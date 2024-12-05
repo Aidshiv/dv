@@ -1,0 +1,52 @@
+Step 1: Create a Story in Tableau Public
+Select “New Story”:
+Click on New Story at the bottom right of the screen.
+Add Sheets to Story:
+Drag Sheet 1 and Sheet 2 to the "Drag a sheet here" section.
+Rename Sheet 1 to "Provincial Health Expenditure in 2016".
+Rename Sheet 2 to "Provincial Health Expenditure from 1975-2018".
+Add Sheet 1 for Ontario:
+Drag another copy of Sheet 1 and place it between the two existing sheets.
+Rename it to "Ontario".
+Click on Ontario in the map and then select Update to highlight Ontario on the map.
+Navigate to Sheet 2:
+Click the right arrow to go to "Provincial Health Expenditure from 1975-2018".
+Hover over the Ontario line and select the data point for health expenditure in 2016.
+Click Update.
+Add a Textbox:
+Drag "Drag to add text" onto the line graph.
+Add a key message: “Ontario had the highest health expenditure in Canada in 2016, spending $87,195.70M”.
+Adjust the text box size as necessary.
+
+
+Step 2: Publish and Save Tableau Public Workbook
+Save Your Work:
+Once satisfied with your sheets, dashboards, and story, click File → Save to Tableau Public As….
+This is the only way to save work on Tableau Public.
+
+
+Step 3: Create a Dashboard with Tableau
+Open Dashboard Tab:
+Click on the Dashboard tab at the bottom of the screen to create a new dashboard.
+Drag Sheets into Dashboard:
+In the left panel, you will see the list of your sheets.
+Drag Sheet 1 (map) and Sheet 2 (line graph) to the center where it says "Drop sheets here".
+Add Titles to Graphs:
+Double-click on the automatically generated titles and replace them with descriptive titles for the graphs.
+For example, "Canada Health Expenditure" for the map and "Provincial Health Expenditure by Year" for the line graph.
+Add Additional Titles and Objects:
+From the Objects panel on the left, drag Text or Image to the dashboard to add additional elements like captions or pictures.
+Add a title to the bottom graph to differentiate between Canada’s total expenditure and provinces.
+Create Interactive Filters:
+Click on the line graph to create an interactive filter.
+From the sidebar that appears, click the filter icon.
+Now, when you click on a line in the graph, it will highlight the corresponding area on the map above.
+
+
+Step 4: Finalize the Dashboard
+Adjust Layout:
+Organize the layout of your dashboard, ensuring that the sheets are aligned and have enough space for titles and interactive features.
+Test Interactivity:
+Test the filter functionality by clicking on different lines in the graph to ensure the map updates accordingly.
+Save or Publish:
+Once you're satisfied with your interactive dashboard, you can save or publish it to Tableau Public.
