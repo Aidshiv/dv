@@ -1,0 +1,75 @@
+Program 7: Creating Reports & Visualizations in Power BI
+Step 1: Open Power BI Desktop
+Launch Power BI Desktop and open a blank report.
+
+
+Step 2: Load Dataset
+Click on Get Data in the ribbon pane.
+Select Excel Workbook or CSV file.
+Choose the specific dataset (e.g., HR Data.csv) and click Open.
+Click on Transform Data to clean and preprocess the data.
+
+
+Step 3: Transform Data in Power Query Editor
+Perform necessary transformations to prepare the dataset:
+Using First Row as Header
+Select Use First Row as Header from the ribbon.
+Creating a New Column
+Select the column for which a new calculation is needed (e.g., Attrition column).
+Go to the Add Column tab and configure the formula.
+The new column will appear at the end of the table.
+Change the datatype of this column to Whole Number.
+Apply Transformations
+Click Close & Apply to load the transformed data into Power BI Desktop.
+
+
+Step 4: Create Visualizations
+On the Canvas, design visualizations using the data loaded into the Fields Pane.
+Creating a Key Performance Indicator (KPI) Chart
+Select the KPI visualization from the Visualizations Pane.
+Drag relevant fields into Indicator and Target goals fields.
+Format the KPI:
+Go to the Format Your Visual pane.
+Under the General tab, set a title, color, and alignment.
+Under Effects, toggle Visual Border ON and customize border color and corner rounding.
+Customize Callout Value font color under the Visual tab.
+
+
+Step 5: Common Visualizations
+Pie Chart: Use to represent the proportion of categories to a whole.
+
+Drag the required fields for Values and Legend into the chart.
+Format titles, labels, and background using the Format Your Visual pane.
+Stacked Column Chart:
+
+Select the visualization and add relevant fields for Axis and Values.
+Use this chart to display numerical data across categories.
+Matrix Visualization:
+
+Drag fields to the Rows, Columns, and Values areas.
+Format row and column headers, background color, and totals.
+Donut Chart: Similar to a Pie Chart but with a blank center for labels or icons.
+
+Step 6: Add Filters Using Slicers
+Select the Slicer visualization from the Visualizations Pane.
+Drag a field into the slicer to filter data dynamically.
+Customize slicer type (e.g., category, range, or date).
+Format slicer appearance for better alignment with the report.
+
+
+Step 7: Formatting Visualizations
+Complete formatting for one visual, then use the Format Painter to apply the same design to others.
+Customize each visual as needed:
+Set font size, colors, and background.
+Use borders and rounded corners for aesthetic appeal.
+
+
+Step 8: Sort Data
+Create an additional column for sorting (if required).
+Change the datatype to Whole Number.
+In the Fields Pane, select Sort By Column to apply sorting.
+
+
+Step 9: Save and Share
+Save your Power BI report as a .pbix file.
+Share the file or publish it to the Power BI Service for broader accessibility.
