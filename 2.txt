@@ -1,0 +1,22 @@
+1. Open Tableau and Connect to Excel File:
+Open Tableau.
+In the Connect pane, select Microsoft Excel.
+Browse and open Tableau Joins File.xlsx.
+2. Add Sheets to Workspace:
+In the Data Source tab, Tableau will display the sheets (Demographics, Salary, Job Title).
+Drag the Demographics sheet to the canvas.
+Drag the Salary sheet to the canvas.
+3. Create Joins:
+Right-click on the Demographics sheet and select Open.
+Choose the type of join you want to perform (Inner, Left, Right, or Full Outer).
+Tableau will automatically detect EmployeeID as the common field; if not, manually select it.
+4. Select Join Type:
+Inner Join: Select Inner Join to display records where both tables match.
+Left Join: Select Left Join to display all records from Demographics and matching records from Salary.
+Right Join: Select Right Join to display all records from Salary and matching records from Demographics.
+Full Outer Join: Select Full Outer Join to display all records from both tables, with NULL values where no match exists.
+5. Create a Visualization:
+Click on Sheet 1.
+For a Bar Chart, drag NameofEmployee to Columns and EmployeeSalary to Rows.
+Sort the chart in descending order.
+Drag EmployeeSalary to the Marks card, and select Color and Label to enhance the chart.
