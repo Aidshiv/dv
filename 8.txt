@@ -1,0 +1,44 @@
+Program 8: Dashboards and Filters in Power BI
+
+
+Step 1: Introduction to Filters
+Filters help refine the data to focus on specific subsets. There are four primary types of filters in Power BI:
+
+Visual Filters: Apply to a single visual on the report page.
+Page Filters: Apply to all visuals on a specific report page.
+Report Filters: Apply to all pages in the report.
+Drillthrough Filters: Allow users to drill down to a specific report page for a focused view.
+
+
+Step 2: Applying Filters
+Using the HR dataset from Program 7, we will extend the dashboard with filters.
+
+1. Visual Filter:
+Drag the Department field to the Filters pane under Filters on this Visual.
+Choose a specific department, e.g., "HR."
+The selected visual now only displays data for the HR department.
+2. Page Filter:
+Drag the Department field to Filters on this Page.
+Select multiple departments, e.g., "HR" and "R&D."
+All visuals on the page now display data for these departments.
+
+
+
+3. Advanced Filter:
+Drag Monthly Income to the Filters pane.
+Select the filter type as Advanced Filtering.
+Configure to show items where the value is greater than or equal to 10000.
+
+
+4. Top N Filter:
+Apply to a visual showing Job Roles.
+Set the filter type to Top N.
+Display the Top 4 Job Roles by Sum of Job Satisfaction.
+
+
+Step 3: Formatting the Dashboard
+Use the Format Your Visual pane to customize titles, colors, labels, and borders.
+Standardize visual styles with the Format Painter to apply consistent formatting across visuals.
+Adjust slicer settings to improve usability and aesthetics.
+
+
