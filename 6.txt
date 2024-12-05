@@ -1,0 +1,49 @@
+PROGRAM 6: Querying Data from CSV - Query Editor, Connecting and Transforming Data from Excel Source
+
+Step 1: Open Power BI Desktop
+Launch Power BI Desktop and open a blank report.
+
+Step 2: Connect to the Data Source
+On the Home tab, select Get Data > Excel Workbook.
+In the Navigator window, browse and open the desired Excel or CSV file.
+Choose the required sheet or table to connect to.
+You have two options:
+Load: Directly import the data into Power BI.
+Transform Data: Open the Power Query Editor to clean and modify the data.
+
+Step 3: Clean and Transform Data in Power Query Editor
+The Power Query Editor opens when you choose "Transform Data."
+Here, you can perform several data cleaning and transformation tasks:
+Renaming Columns
+Select a column.
+Right-click and choose Rename, or edit directly in the column header.
+Changing Data Types
+Highlight the column(s) to change.
+From the Home tab, select Data Type and pick the desired type.
+Alternatively, right-click on the column header and choose Change Type.
+Removing Rows
+Go to the Home tab > Reduce Rows > Remove Rows > Remove Bottom Rows.
+Specify the number of rows to remove and click OK.
+Removing Columns
+Select the columns to remove.
+Use Home tab > Manage Columns > Remove Columns or right-click and choose Remove Columns.
+Applied Steps Panel
+All actions performed appear in the Applied Steps pane (right side).
+Steps can be reordered, renamed, or deleted as needed.
+
+Step 4: Apply Changes
+Once transformations are complete, select Close & Apply from the Home tab.
+The transformed data will load into Power BI Desktop, ready for reporting.
+
+Step 5: Create Reports in Power BI Desktop
+Use the Report View to design visualizations:
+Drag fields from the Fields pane onto the Canvas.
+Choose appropriate chart types from the Visualizations pane.
+Customize visuals using the Format pane.
+Filters:
+
+Add filters to refine data displayed in visualizations.
+
+
+Step 6: Save Your Work
+Save your Power BI file as a .pbix file for future use.
