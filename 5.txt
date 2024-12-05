@@ -1,0 +1,49 @@
+Step 1: Download and Install Power BI Desktop
+Go to the Power BI download page: Power BI Download Page.
+Click on Products → Power BI → Desktop.
+Select Advanced Download Options.
+Choose Language (English) and select the file PBIDesktopSetup_x64.exe.
+Click Download.
+After downloading, double-click the .exe file to start the installation.
+Follow the installation wizard by clicking Next until the Finish button appears, completing the installation.
+
+
+Step 2: Launch Power BI Desktop
+After installation, double-click on the Power BI Desktop application.
+Power BI Desktop will open with a blank report.
+
+
+Step 3: Explore Power BI Desktop Interface
+Power BI Desktop interface consists of five main areas:
+Ribbon: Contains most of the controls and options needed for building reports.
+Views: This includes the Report View, Data View, and Model View.
+Canvas: The main design area where visualizations and other elements are added.
+Page Selector: For navigation between different pages in the report.
+Filters: Allows fields to be added to filter data for the visualizations.
+Visualizations: Contains a list of available visualizations to apply to your data.
+Fields: Displays tables and fields available in the data model.
+
+
+Step 4: Understand Major Components of Power BI Desktop Interface
+Power Query Editor:
+Cleanses and transforms data. Allows users to access and connect datasets from multiple sources like MySQL, SQL Server, DB2, etc.
+Power View:
+A tool for creating interactive visualizations and charts.
+Power Map:
+A 3D map visualization tool that helps identify geospatial data and analyze regional sales, demographics, etc.
+Power Pivot:
+Used for data modeling, creating relationships between datasets, and performing complex computations using DAX functions.
+Power Q&A:
+Allows querying data using natural language, helpful for large datasets.
+
+
+Step 5: Build Reports in Power BI Desktop
+Report View:
+The report view has six main areas:
+Ribbon: Displays tasks related to reports and visualizations.
+Canvas: The main area for arranging and creating visualizations.
+Pages Tab: At the bottom, used to navigate or add pages in the report.
+Filters Pane: Used to filter data for visualizations.
+Visualizations Pane: Used to add, change, and customize visualizations.
+Format Pane: For customizing the design of reports and visualizations.
+Fields Pane: Shows available fields in your queries to drag onto the canvas, filters, or visualizations.
